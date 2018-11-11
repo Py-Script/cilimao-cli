@@ -8,7 +8,8 @@
 ## 安装
 ### 源码安装
 
-```$ git clone https://github.com/chenjiandongx/torrent-cli.git
+```
+ $ git clone https://github.com/cexll/cilimao-cli.git
  $ cd cilimao-cli
  $ pip install -r requirements.txt
  $ python setup.py install
