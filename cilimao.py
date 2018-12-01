@@ -68,7 +68,7 @@ def run():
     
     url = ('https://www.cilimao.me/api/search?size=10&'
            'sortDirections=desc&word={}&'
-           'resourceSource=0&resourceType=1&page={}').format(
+           'sortProperties=download_countpage={}').format(
             keyword, page)
     r = requests.get(url)
     print('Crawling data for you.....')
