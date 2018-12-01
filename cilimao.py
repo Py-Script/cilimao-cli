@@ -66,7 +66,7 @@ def run():
     else:
         page = 0
     
-    url = ('https://www.cilimao.me/api/search?size=10&'
+    url = ('https://www.cilimao.cc/api/search?size=10&'
            'sortDirections=desc&word={}&'
            'sortProperties=download_count&page={}').format(
             keyword, page)
